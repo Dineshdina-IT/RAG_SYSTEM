@@ -1,4 +1,4 @@
 .env
 resources
-_pycache
+__pycache__
 .venv
