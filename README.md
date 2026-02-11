@@ -1,10 +1,10 @@
-# 🎉 RAG System Migration Complete!
+#  RAG System Migration Complete!
 
-## ✅ What Was Accomplished
+##  What Was Accomplished
 
 Your RAG system has been successfully migrated from **FAISS** (local) with **sentence-transformers** for embeddings.
 
-## 📊 System Overview
+##  System Overview
 
 | Component | Technology | Details |
 |-----------|-----------|---------|
@@ -13,9 +13,9 @@ Your RAG system has been successfully migrated from **FAISS** (local) with **sen
 | **Documents Indexed** | 341 chunks | From Annual_Report_2022-2023.pdf |
 | **Storage** | Local files | `faiss_index.bin` + `chunks.pkl` |
 
-## 🚀 How to Use
+##  How to Use
 
-### 1. **Build the Index** (Already Done ✅)
+### 1. **Build the Index** (Already Done)
 ```bash
 python dataprocessor.py
 ```
@@ -46,7 +46,7 @@ for chunk, distance in results:
     print(chunk)
 ```
 
-## 📁 Project Files
+##  Project Files
 
 **Core Files:**
 - `pdfreader.py` - Extract text from PDFs
@@ -63,14 +63,14 @@ for chunk, distance in results:
 - `faiss_index.bin` (523 KB) - Vector index
 - `chunks.pkl` (309 KB) - Document chunks
 
-## 💡 Key Benefits
+##  Key Benefits
 
 ✅ **No API costs** - Everything runs locally  
 ✅ **Privacy** - No data sent to external services  
 ✅ **Fast** - Local processing with GPU support (if available)  
 ✅ **Simple** - Easy to understand and modify  
 
-## 🔧 Dependencies
+##  Dependencies
 
 All installed and ready:
 - `sentence-transformers` - Local embeddings
@@ -78,14 +78,14 @@ All installed and ready:
 - `groq` - For LLM integration (future use)
 - `numpy` - Numerical operations
 
-## 📝 Next Steps
+##  Next Steps
 
 1. **Integrate with GROQ API** for answer generation (RAG completion)
 2. **Add more documents** by processing additional PDFs
 3. **Optimize** with FAISS IVF indexes for larger datasets
 4. **Build a UI** for easier querying
 
-## 🎯 Test Results
+##  Test Results
 
 Successfully demonstrated semantic search:
 - Query: "What were the key financial highlights?"
@@ -94,4 +94,3 @@ Successfully demonstrated semantic search:
 
 ---
 
-**Migration Status: ✅ COMPLETE**
