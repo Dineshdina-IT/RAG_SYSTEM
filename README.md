@@ -2,7 +2,7 @@
 
 ## ✅ What Was Accomplished
 
-Your RAG system has been successfully migrated from **Pinecone** (cloud) to **FAISS** (local) with **sentence-transformers** for embeddings.
+Your RAG system has been successfully migrated from **FAISS** (local) with **sentence-transformers** for embeddings.
 
 ## 📊 System Overview
 
